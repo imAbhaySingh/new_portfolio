@@ -91,6 +91,7 @@ font-weight: 100;
     margin: 1rem;
     width: 95%;
     padding: 1.5rem 2rem;
+    display: flex;
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
 }
