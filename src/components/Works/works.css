@@ -31,9 +31,22 @@
     max-width: 65rem;
 }
 .worksImg{
-    object-fit: cover;
+    object-fit: contain;
     height: 20rem;
+    width: 18rem;
     margin: 0.5rem;
+    
+}
+.worksdiv{
+    border: 3px solid grey;
+    border-radius: 15px;
+    margin: 1rem;
+    position: relative;
+}
+.worksdiv h2{
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .worksBtn{
     padding: 0.5rem 2.5rem;
@@ -43,4 +56,98 @@
     font-size: 1rem;
     margin: 3rem 0rem;
     color: black;
+}
+.weather{
+    transition: all ease-in-out 1s;
+}
+.container1 ,.container2 ,.container3 ,.container4 ,.container5 , .container6 {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 12px;
+    backdrop-filter: blur(15px);
+    bottom: 0;
+    background-color: rgba(255,255,255,.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    display: none;
+}
+
+.worksdiv button{
+    background-color: #994D1C;
+    border: 2px solid #fff;
+    min-width: 7rem;
+    min-height: 2.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.worksdiv h1{
+    color: black;
+    color: #994D1C;
+    border: 2px solid maroon;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.worksdiv h3{
+    color: #000;
+}
+
+.MediWrite:hover .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+
+.Karuda:hover .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+
+.Sign:hover .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+
+
+.Weather:hover .container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+
+
+.Cipher:hover .container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+
+
+.Pass:hover .container6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+}
+.ProjectLink{
+    color: #000;
 }
