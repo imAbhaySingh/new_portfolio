@@ -27,7 +27,7 @@ const Works = () => {
             Mediwrite swiftly enhances emergency response through cutting-edge identity detection tech, automating the delivery of vital medical information to families and police for more efficient and timely assistance.
             </h3>
             <a
-              href="https://github.com/imAbhaySingh/mediwrite-trial"
+              href="https://master.d29xsankg2s1yy.amplifyapp.com/"
               target="blank"
             >
               <button>Dive In</button>
@@ -50,6 +50,23 @@ const Works = () => {
             </a>
           </div>
         </div>
+        <div className="worksdiv Weather">
+          <img src={Weather} alt="" className="worksImg" />
+          <h2>Weather App</h2>
+          <div className="container4">
+            <h1>Description</h1>
+            <h3>
+            Created a user-friendly weather app that delivers accurate forecasts, real-time updates, and personalized insights, providing users with a seamless and informed weather experience anytime, anywhere.
+            </h3>
+            <a
+              href="https://master.d31m0ic3gz9bz9.amplifyapp.com/"
+              target="blank"
+            >
+              <button>Dive In</button>
+            </a>
+          </div>
+        </div>
+
         <div className="worksdiv Sign">
           <img src={Sign} alt="" className="worksImg" />
           <h2>Sign Language Translater</h2>
@@ -66,22 +83,7 @@ const Works = () => {
             </a>
           </div>
         </div>
-        <div className="worksdiv Weather">
-          <img src={Weather} alt="" className="worksImg" />
-          <h2>Weather App</h2>
-          <div className="container4">
-            <h1>Description</h1>
-            <h3>
-            Created a user-friendly weather app that delivers accurate forecasts, real-time updates, and personalized insights, providing users with a seamless and informed weather experience anytime, anywhere.
-            </h3>
-            <a
-              href="https://github.com/imAbhaySingh/mediwrite-trial"
-              target="blank"
-            >
-              <button>Dive In</button>
-            </a>
-          </div>
-        </div>
+        
         <div className="worksdiv Cipher">
           <img src={Cipher} alt="" className="worksImg" />
           <h2>Cipher</h2>

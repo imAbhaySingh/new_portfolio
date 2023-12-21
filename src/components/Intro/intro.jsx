@@ -2,7 +2,6 @@ import React from "react";
 import "./intro.css";
 import bg from "../../assets/me.png";
 // import bg from "../../assets/image1.png";
-import {Link} from 'react-scroll';
 import btnImg from "../../assets/hireme.png"
 
 const Intro = () => {
@@ -19,7 +18,7 @@ const Intro = () => {
         <p className="introPara">
           I am a skilled wev developer with experience in   creating <br/> visually appealing and user friendly websites.
         </p>
-        <Link><button className="btn"><img src={btnImg} alt="Hire Me" className="btnImg" />Hire Me</button></Link>
+        <a href="https://drive.google.com/file/d/1RCdWBTVLwzaVF5UkGmO95w46mnhZXN28/view?usp=sharing" target="blank"><button className="btn"><img src={btnImg} alt="Hire Me" className="btnImg" />Resume</button></a>
       </div>
       <img src={bg} alt="Profile" className="bg" />
     </section>
