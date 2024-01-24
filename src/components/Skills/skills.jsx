@@ -33,6 +33,7 @@ const Skills = () => {
                   <p>Write some content here !</p>
                 </div>
               </div>
+              
             </div>
           </span>
         </span>
