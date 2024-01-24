@@ -73,7 +73,9 @@
 }
 
 
-@media screen and (max-width:720px){
+
+
+@media only screen and (max-width: 600px){
     .mobMenue{
         display: flex;
     }

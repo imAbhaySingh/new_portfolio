@@ -66,14 +66,22 @@
 
 @media screen and (max-width: 480px){
     .bg {
-        right: -20vw;
-        background-color: red;
+        right: -60vw;
     }
     .introContent{
       font-size: 10vw;
     }
     .hello{
         font-size: 4.5vh;
+    }
+    .introPara{
+        color: #B4B4B3;
+    }
+    .introText{
+        color: #B4B4B3;
+    }
+    .hello{
+        color: #B4B4B3;
     }
    
 }

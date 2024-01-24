@@ -61,3 +61,12 @@
     margin-top:20%;
     padding: 5%;
 }
+
+@media screen and (max-width: 480px){
+    .contactDesc{
+        font-size: x-small;
+    }
+    .contactForm{
+        width: 90%;
+    }
+}

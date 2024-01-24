@@ -39,7 +39,7 @@ const Contact = () => {
 
             </form>
         </section>
-    )
+    )   
 }
 
 export default Contact;
