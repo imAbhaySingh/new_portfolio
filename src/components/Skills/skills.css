@@ -2,7 +2,7 @@
 #skills {
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 100;
     max-width: 65rem;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 .skillsBars {
     margin: 1.5rem;
     width: 100%;
-    max-width: 80rem;
+    max-width: 90%;
     text-align: left;
 }
 
@@ -66,4 +66,18 @@
     font-weight: normal; /* Use 'normal' or numerical values like 400 for better compatibility */
 }
 
-/* Add more specific class names or IDs if necessary */
+@media only screen and (max-width:600px) {
+    .skillsPara{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .skillsBars{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #skills{
+        height: 130vh;
+    }
+    
+}
